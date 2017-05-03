@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Cyntax Add",
+        "command": "cyntax:add"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Cyntax",
+          "submenu": [
+            {
+              "label": "Add",
+              "command": "cyntax:add"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
